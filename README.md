@@ -46,5 +46,4 @@ The objective was to maximize classification accuracy by optimizing kernel and N
 
 Fitness vs Iteration for best performing sample (Sample 4).
 
-```markdown
 ![Convergence Graph](https://github.com/dhaniishta/SVM-Parameter-Optimization/blob/main/graph.jpeg?raw=true)
