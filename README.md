@@ -29,21 +29,21 @@ The objective was to maximize classification accuracy by optimizing kernel and N
 
 | Sample # | Best Accuracy | Best SVM Parameters |
 |:--------:|:-------------:|:-------------------:|
-| S1 | 0.879 | {‘Kernel’: ‘rbf’, ‘Nu’: 0.431, ‘Epsilon’: 0.123} |
-| S2 | 0.867 | {‘Kernel’: ‘linear’, ‘Nu’: 0.512, ‘Epsilon’: 0.214} |
-| S3 | 0.872 | {‘Kernel’: ‘rbf’, ‘Nu’: 0.405, ‘Epsilon’: 0.177} |
-| S4 | **0.881** | {‘Kernel’: ‘rbf’, ‘Nu’: 0.387, ‘Epsilon’: 0.301} |
-| S5 | 0.863 | {‘Kernel’: ‘poly’, ‘Nu’: 0.532, ‘Epsilon’: 0.239} |
-| S6 | 0.870 | {‘Kernel’: ‘linear’, ‘Nu’: 0.678, ‘Epsilon’: 0.453} |
-| S7 | 0.875 | {‘Kernel’: ‘rbf’, ‘Nu’: 0.490, ‘Epsilon’: 0.128} |
-| S8 | 0.878 | {‘Kernel’: ‘rbf’, ‘Nu’: 0.419, ‘Epsilon’: 0.185} |
-| S9 | 0.869 | {‘Kernel’: ‘linear’, ‘Nu’: 0.606, ‘Epsilon’: 0.341} |
-| S10 | 0.866 | {‘Kernel’: ‘poly’, ‘Nu’: 0.520, ‘Epsilon’: 0.217} |
+| S1 | 0.932667 | {'Kernel': 'rbf', 'Nu': 0.134, 'Epsilon': 0.25} |
+| S2 | 0.937667 | {'Kernel': 'rbf', 'Nu': 0.102, 'Epsilon': 0.36} |
+| S3 | 0.938667 | {'Kernel': 'rbf', 'Nu': 0.109, 'Epsilon': 0.491} |
+| S4 | 0.934000 | {'Kernel': 'rbf', 'Nu': 0.128, 'Epsilon': 0.072} |
+| S5 | 0.943167 | {'Kernel': 'rbf', 'Nu': 0.103, 'Epsilon': 0.344} |
+| S6 | 0.919833 | {'Kernel': 'rbf', 'Nu': 0.148, 'Epsilon': 0.038} |
+| S7 | 0.908500 | {'Kernel': 'poly', 'Nu': 0.105, 'Epsilon': 0.494} |
+| S8 | 0.933333 | {'Kernel': 'rbf', 'Nu': 0.133, 'Epsilon': 0.494} |
+| S9 | **0.945500** | {'Kernel': 'rbf', 'Nu': 0.103, 'Epsilon': 0.248} |
+| S10 | 0.895000 | {'Kernel': 'poly', 'Nu': 0.126, 'Epsilon': 0.303} |
 
 ---
 
 ## Convergence Graph
 
-Fitness vs Iteration for best performing sample (Sample 4).
+Fitness vs Iteration for best performing sample (Sample 9).
 
 ![Convergence Graph](https://github.com/dhaniishta/SVM-Parameter-Optimization/blob/main/graph.jpeg?raw=true)
