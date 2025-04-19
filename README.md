@@ -46,7 +46,5 @@ The objective was to maximize classification accuracy by optimizing kernel and N
 
 Fitness vs Iteration for best performing sample (Sample 4).
 
-> (Upload the graph image here as `graph.jpeg`)
-
 ```markdown
 ![Convergence Graph](graph.jpeg)
